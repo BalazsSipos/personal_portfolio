@@ -1,0 +1,10 @@
+.technology-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1rem;
+}
+
+.technology-name {
+  padding: 0 1rem;
+}
