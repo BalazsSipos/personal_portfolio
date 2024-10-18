@@ -1,0 +1,25 @@
+.professional-container {
+  /* margin: 3rem; */
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* grid-template-rows: 400px 1fr; */
+  gap: 1rem;
+  min-height: 100vh;
+  text-align: center;
+  align-items: self-start;
+}
+
+.project-title-list {
+  text-align: left;
+  /* color: rgb(45, 51, 93); */
+  margin: 20%;
+  position: sticky;
+  top: 40%;
+  border: 3px solid white;
+  /* height: 200vh; */
+  /* box-sizing: border-box; */
+}
+
+.project-list {
+  border: 3px solid white;
+}
