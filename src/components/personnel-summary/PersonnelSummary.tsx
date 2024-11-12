@@ -21,7 +21,7 @@ export function PersonalSummary() {
       </div>
       <div className={styles['personal-info']}>
         <div className={styles['personal-summary']}>
-          <p className={styles['personal-summary-text']}>
+          <div className={styles['personal-summary-text']}>
             <h1>My name is BALAZS</h1>
             <h2>
               I am a <em>Fullstack Software Developer</em>
@@ -30,7 +30,7 @@ export function PersonalSummary() {
             parts of it, but everything. The ground, the walls, the wires and
             pipes, all the furniture, the coloring, even the nice flowers around
             the building. That completeness, what motivates me.
-          </p>
+          </div>
           <Image
             className={styles['personal-summary__image']}
             src={dec}

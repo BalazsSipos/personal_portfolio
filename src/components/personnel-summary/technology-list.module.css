@@ -8,11 +8,12 @@
 
 .technology-list {
   display: flex;
+  flex-direction: column;
+
   flex-wrap: wrap;
-  text-align: center;
   justify-content: center;
 
-  @media (max-width: 40rem) {
-    flex-direction: column;
+  @media (min-width: 60rem) {
+    flex-direction: row;
   }
 }
