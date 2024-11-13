@@ -18,36 +18,35 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   align-items: center;
 }
 
 .personal-summary {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   gap: 30px;
   align-items: center;
 
-  @media (max-width: 40rem) {
-    flex-direction: column;
+  @media (min-width: 40rem) {
+    flex-direction: row;
   }
 }
 
 .personal-summary-text {
-  width: 45%;
+  width: 100%;
 
-  @media (max-width: 40rem) {
-    width: 100%;
+  @media (min-width: 60rem) {
+    width: 45%;
   }
 }
 
 .personal-summary__image {
-  width: 45%;
+  width: 100%;
   min-width: 300px;
   height: auto;
 
-  @media (max-width: 40rem) {
-    width: 100%;
+  @media (min-width: 60rem) {
+    width: 45%;
   }
 }

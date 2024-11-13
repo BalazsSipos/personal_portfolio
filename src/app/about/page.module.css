@@ -1,0 +1,21 @@
+.image-container {
+  /* width: 50%; */
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+  flex: 1 1 0;
+  /* flex-direction: column; */
+  align-items: center;
+  /* border: 3px solid white; */
+}
+
+.image {
+  /* max-width: 400px; */
+  width: 100%;
+  height: auto;
+  /* border: 3px solid white; */
+
+  /* @media (min-width: 60rem) {
+    width: 45%;
+  } */
+}
