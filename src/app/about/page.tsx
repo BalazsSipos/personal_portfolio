@@ -2,7 +2,7 @@ import styles from './page.module.css';
 import Image from 'next/image';
 import TextAndMedia from '../../components/common/TextAndMedia';
 import decathlon from '../../app/assets/dec.png';
-import analyst3 from '../../app/assets/financial_analysis_diagrams2.png';
+import analyst from '../../app/assets/financial_analysis_diagrams.png';
 import developer from '../../app/assets/software-developer.jpeg';
 
 export default function About() {
@@ -42,7 +42,7 @@ export default function About() {
         <div className={styles['image-container']}>
           <Image
             className={styles['image']}
-            src={analyst3}
+            src={analyst}
             alt="Decathlon logo"
             // width={380}
             // height={38}
