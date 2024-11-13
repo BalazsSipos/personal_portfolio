@@ -34,7 +34,11 @@ export default function About() {
           />
         </div>
       </TextAndMedia>
-      <TextAndMedia title="Financial Analyst" texts={financialAnalystTexts}>
+      <TextAndMedia
+        title="Financial Analyst"
+        texts={financialAnalystTexts}
+        theme="light"
+      >
         <div className={styles['image-container']}>
           <Image
             className={styles['image']}
