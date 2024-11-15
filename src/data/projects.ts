@@ -14,7 +14,7 @@ export const projectSummaries: ProjectSummaryItemProps[] = [
     projectDescription:
       'A website and CMS system for car retail shops for the PSA group. Technologies: Java, React, postgres, git, Sass.',
     projectImage: 'psa.png',
-    url: 'https://project1.com',
+    url: '/projects/psa',
     onActiveProjectTitleChange: () => {},
   },
   {

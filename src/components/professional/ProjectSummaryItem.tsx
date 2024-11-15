@@ -2,6 +2,7 @@ import styles from './project-summary-item.module.css';
 import Image from 'next/image';
 import psa from '../../app/assets/psa.png';
 import { useEffect, useRef } from 'react';
+import Anchor from '../common/Anchor';
 export type ProjectSummaryItemProps = {
   projectTitle: string;
   projectDescription: string;
@@ -55,7 +56,14 @@ export default function ProjectSummaryItem(props: ProjectSummaryItemProps) {
         // width={180}
         // height={38}
       />
-      {/* {props.url} */}
+      <div className={styles['project-summary-item__anchor']}>
+        <Anchor
+          text="Read more"
+          href={props.url}
+          target=""
+          priority="primary"
+        ></Anchor>
+      </div>
     </div>
   );
 }
