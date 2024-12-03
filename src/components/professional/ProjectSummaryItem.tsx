@@ -1,7 +1,6 @@
 import styles from './project-summary-item.module.css';
 import Image from 'next/image';
-import psa from '../../app/assets/psa.png';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Anchor from '../common/Anchor';
 export type ProjectSummaryItemProps = {
   projectTitle: string;
@@ -13,12 +12,16 @@ export type ProjectSummaryItemProps = {
 
 export default function ProjectSummaryItem(props: ProjectSummaryItemProps) {
   const targetRef = useRef(null);
+  const [isActive, setIsActive] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
           props.onActiveProjectTitleChange(props.projectTitle);
+          setIsActive(true);
+        } else {
+          setIsActive(false);
         }
       },
       {
@@ -50,11 +53,13 @@ export default function ProjectSummaryItem(props: ProjectSummaryItemProps) {
         {props.projectDescription}
       </p>
       <Image
-        className={styles['project-summary-item__image']}
-        src={psa}
+        className={`${styles['project-summary-item__image']} ${
+          isActive ? styles['project-summary-item__image--active'] : ''
+        }`}
+        src={`/${props.projectImage}`}
         alt={props.projectTitle}
-        // width={180}
-        // height={38}
+        width={900}
+        height={180}
       />
       <div className={styles['project-summary-item__anchor']}>
         <Anchor
