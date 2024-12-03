@@ -1,10 +1,10 @@
 import styles from './technology-item.module.css';
 import Image from 'next/image';
 
-interface TechnologyItemProps {
+export type TechnologyItemProps = {
   technologyName: string;
   technologyLogo: string;
-}
+};
 
 export function TechnologyItem(props: TechnologyItemProps) {
   return (
@@ -13,15 +13,10 @@ export function TechnologyItem(props: TechnologyItemProps) {
         className="icon"
         src={props.technologyLogo}
         alt={props.technologyName}
-        // width={180}
-        // height={38}
+        width={60}
+        height={68}
         priority
       />
-      {/* <img
-        className="icon"
-        src={props.technologyLogo}
-        alt={props.technologyName}
-      /> */}
       <span className={styles['technology-name']}>{props.technologyName}</span>
     </div>
   );

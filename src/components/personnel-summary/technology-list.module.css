@@ -1,14 +1,16 @@
 .technology-list-container {
-  margin: 3rem;
+  padding: 3rem;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
+  background: var(--background);
 }
 
 .technology-list {
   display: flex;
   flex-direction: column;
+  padding: 2rem;
 
   flex-wrap: wrap;
   justify-content: center;
