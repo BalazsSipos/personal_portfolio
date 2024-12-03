@@ -1,0 +1,36 @@
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background);
+  color: var(--foreground);
+  padding: 8rem 20%;
+
+  @media (min-width: 60rem) {
+    flex-direction: row;
+    padding: 8rem 25%;
+  }
+}
+
+.summary__listing {
+  display: flex;
+  flex-direction: column;
+  /* gap: 0.7rem; */
+  align-items: left;
+  justify-content: left;
+  flex: 1 1 0;
+}
+
+.summary__text {
+  width: 100%;
+  flex: 1 1 0;
+}
+
+h3.title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}

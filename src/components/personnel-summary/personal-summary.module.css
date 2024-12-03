@@ -5,10 +5,11 @@
 
 .image-container {
   text-align: center;
+  height: 100vh;
 }
 
 .image-container__image {
-  width: 80%;
+  width: 60%;
   max-width: 800px;
   height: auto;
 }

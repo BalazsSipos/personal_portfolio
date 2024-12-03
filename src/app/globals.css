@@ -39,3 +39,8 @@ a {
     color-scheme: dark;
   }
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}

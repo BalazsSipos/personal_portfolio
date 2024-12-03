@@ -1,5 +1,5 @@
 import styles from './page.module.css';
-import { PersonalSummary } from '../components/personnel-summary/PersonnelSummary';
+import { PersonalSummary } from '../components/personnel-summary/PersonalSummary';
 import Professional from '../components/professional/Professional';
 
 export default function Home() {

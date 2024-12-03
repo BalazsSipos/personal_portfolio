@@ -4,9 +4,9 @@
   /* justify-items: end; */
   align-items: center;
   gap: 2rem;
-  width: 100%;
   padding-top: 10%;
   padding-bottom: 10%;
+  background: var(--background);
 
   &.light {
     background: #ffffff;

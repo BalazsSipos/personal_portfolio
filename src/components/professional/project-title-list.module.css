@@ -1,42 +1,30 @@
 .project-title-list {
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
-  /* text-align: center;
-  justify-content: center; */
-  /* align-self: center; */
-  /* justify-content: flex-start; */
 }
-
-/* .project-title-list__inner {
-  display: inline-block;
-  text-align: left;
-} */
 
 .project-title-list__title {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
-  /* text-align: left; */
 }
 
 .project-title-list__ul {
   list-style-type: none;
   padding: 0;
-  /* text-align: left; */
 }
 
 .project-title-list__ul li {
   margin-bottom: 0.5rem;
-  /* text-align: left; */
 }
 
 .project-title {
   font-size: 1rem;
   font-weight: bold;
-  /* text-align: left; */
 }
 
 .project-title--active {
-  color: red;
+  font-size: 1.2rem;
+  transition: font 0.5s;
+  color: grey;
 }
