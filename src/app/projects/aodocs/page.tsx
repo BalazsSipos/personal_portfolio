@@ -48,7 +48,7 @@ export default function Page() {
         <TextAndImage
           title="Product development"
           texts={texts1}
-          theme="light"
+          theme="dark"
           imageSrc="/aodocs-product.png"
           imageAlt="Aodocs product image"
         />
