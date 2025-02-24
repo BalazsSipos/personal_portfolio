@@ -73,14 +73,14 @@ export default function Page() {
         <TextAndImage
           title="Backend development"
           texts={texts1}
-          theme="light"
+          // theme="light"
           imageSrc="/todo.png"
           imageAlt="Old kaiser website image"
         />
         <TextAndImage
           title="Frontend development"
           texts={texts2}
-          // theme="light"
+          theme="light"
           imageSrc="/todo-users.png"
           imageAlt="kaiser mobile image"
         />

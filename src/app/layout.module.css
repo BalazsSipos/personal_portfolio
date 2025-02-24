@@ -49,6 +49,7 @@
 }
 
 .footer {
+  width: 100%;
   grid-row-start: 3;
 }
 

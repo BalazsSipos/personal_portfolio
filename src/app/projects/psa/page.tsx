@@ -74,7 +74,7 @@ export default function Page() {
         <TextAndImage
           title="Redesign website"
           texts={texts1}
-          theme="light"
+          // theme="dark"
           imageSrc="/peugeot.png"
           imageAlt="Peugeot website image"
         />
@@ -93,7 +93,7 @@ export default function Page() {
         <TextAndImage
           title="Extend CMS"
           texts={texts2}
-          // theme="light"
+          theme="light"
           imageSrc="/psa-mix.png"
           imageAlt="PSA mix image"
         />
