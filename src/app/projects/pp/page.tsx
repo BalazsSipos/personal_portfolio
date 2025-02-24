@@ -57,14 +57,14 @@ export default function Page() {
         <TextAndImage
           title="General design"
           texts={texts1}
-          theme="light"
+          // theme="light"
           imageSrc="/pp-general.png"
           imageAlt="personal portfolio general image"
         />
         <TextAndImage
           title="Design mobile view"
           texts={texts2}
-          // theme="light"
+          theme="light"
           imageSrc="/pp-mobile.png"
           imageAlt="personal portfolio mobile image"
         />

@@ -63,21 +63,21 @@ export default function Page() {
         <TextAndImage
           title="Outdated website"
           texts={texts1}
-          theme="light"
+          // theme="light"
           imageSrc="/kaiser-old.png"
           imageAlt="Old kaiser website image"
         />
         <TextAndImage
           title="Design mobile view"
           texts={texts2}
-          // theme="light"
+          theme="light"
           imageSrc="/athletics-mobile.png"
           imageAlt="kaiser mobile image"
         />
         <TextAndImage
           title="Design desktop view"
           texts={texts3}
-          theme="light"
+          // theme="light"
           imageSrc="/athletics.png"
           imageAlt="kaiser desktop image"
         />

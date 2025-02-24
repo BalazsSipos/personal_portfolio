@@ -2,7 +2,7 @@ import Image from 'next/image';
 import styles from './anchor.module.css';
 import Link from 'next/link';
 
-type AnchorProps = {
+export type AnchorProps = {
   text: string;
   href: string;
   target: string;
