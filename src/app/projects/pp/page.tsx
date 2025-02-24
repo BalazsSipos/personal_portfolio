@@ -44,7 +44,7 @@ export default function Page() {
     summary: {
       role: 'Frontend developer',
       deliverables: ['Website design', 'Website development'],
-      projectUrls: [],
+      projectUrls: ['https://balazs-sipos-portfolio.vercel.app/'],
       code: 'https://github.com/BalazsSipos/personal_portfolio',
       summaryText:
         'The personal portfolio (this page) was created to showcase my experiences, the technologies I prefer to use.',
