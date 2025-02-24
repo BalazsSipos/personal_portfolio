@@ -17,22 +17,8 @@
 .footer {
   display: flex;
   gap: 24px;
-}
-
-.footer a {
-  display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 8px;
-}
-
-.footer img {
-  flex-shrink: 0;
-}
-
-@media (max-width: 600px) {
-  .footer {
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
+  background-color: var(--gray-alpha-100);
+  padding: 2rem;
 }
